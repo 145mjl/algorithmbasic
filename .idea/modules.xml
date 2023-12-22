@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithmbasic.iml" filepath="$PROJECT_DIR$/algorithmbasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/godofjava1/godofjava1.iml" filepath="$PROJECT_DIR$/godofjava1/godofjava1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/godofjava2/godofjava2.iml" filepath="$PROJECT_DIR$/godofjava2/godofjava2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programmers/programmers.iml" filepath="$PROJECT_DIR$/programmers/programmers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programmers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/programmers.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programmers.test.iml" filepath="$PROJECT_DIR$/.idea/modules/programmers.test.iml" />
     </modules>
   </component>
 </project>
