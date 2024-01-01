@@ -6,17 +6,18 @@ import java.util.Set;
 
 public class RandomNumberStatistics {
 
-    private final int DATA_BOUNDARY=50;
-    private Hashtable<Integer,Integer> hashtable;
+    private final int DATA_BOUNDARY;
+    private final Hashtable<Integer,Integer> hashtable;
 
     public RandomNumberStatistics(){
+        DATA_BOUNDARY=50;
         hashtable = new Hashtable<>();
     }
 
     public void getRandomNumberStatistics(){
         Random random=new Random();
         for(int i=0;i<5000;i++){
-            putCurrentNumber(random.nextInt(50)+1);
+            putCurrentNumber(random.nextInt(DATA_BOUNDARY)+1);
         }
         printStatistics();
     }
