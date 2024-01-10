@@ -54,4 +54,14 @@ public class MemberDTO {
         return true;
     }
 
+    @Override
+    public int hashCode() {
+        final int prime=31;
+        int result=1;
+        result=prime*result+((email==null)?0:email.hashCode());
+        result=prime*result+((name==null)?0:name.hashCode());
+        result=prime*result+((phone==null)?0:phone.hashCode());
+        //이런 식이 나온 이유 추측 : 본인인증수단으로 phone을 쓰니까?
+        return result;
+    }
 }
